@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 0434acf7fa7b5324fa3571617d605b06, type: 3}
+  m_ShaderKeywords: REFRACT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CausticsTex:
+        m_Texture: {fileID: 2800000, guid: 58157b731bc3c7e4385233f291f7a2fe, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: ecfcd2b1828c11e45b92f137c8027497, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 3ed07e2018d7fc548b0eb21dd2e9d5dc, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 1, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractTex:
+        m_Texture: {fileID: 2800000, guid: 6562113e95a40044a98f0bb803e8aab6, type: 3}
+        m_Scale: {x: 2, y: 3}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CausticsIntensity: 1
+    - _DepthMax: 1
+    - _DepthMin: 0
+    - _DepthScale: 0.94
+    - _FoamRange: 1.31
+    - _FoamSmooth: 1.7
+    - _FreshnelPower: 2.51
+    - _NormalFactor: 0.24
+    - _RefractFactor: 0.01
+    - _SpecularPower: 17.75
+    - _isFace: 0
+    - _isRefract: 1
+    m_Colors:
+    - _DeepColor: {r: 0, g: 0.96571416, b: 1, a: 1}
+    - _ShallowColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
